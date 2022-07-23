@@ -1,0 +1,378 @@
+.container {
+    width: 100%;
+
+}
+.header-container {
+    background-color: #93a0a8;
+  
+  }
+  
+  .header-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 102px;
+    margin: 20 auto;
+ 
+  }
+
+  .header-img {
+    margin-top: 30px;
+    width: 89px;
+    height: 89px;
+    cursor: pointer;
+  }
+  
+  .header-list {
+    margin-top: 40px;
+  }
+  .header-items {
+    display: flex;
+    align-items: center;
+    gap: 0 53px;
+  }
+  .header-items a {
+    text-decoration: none;
+
+  }
+  .header-page {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 39px;
+    color: #ffffff;
+    cursor: pointer;
+    list-style: none;
+  }
+  
+  .header-page:hover {
+    opacity: 4;
+    color: rgba(0, 0, 255, 0.578);
+  }
+  
+  .header-navsub {
+    display: flex;
+    align-items: center;
+    margin-top: 35px;
+    /* gap: 0 100px; */
+  }
+  
+#contact {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#contact-content {
+    height: 100%;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+
+.contact-container {
+    border-radius: 10px;
+    margin: 10px;
+    width: 500px;
+    border-color: rgb(48, 17, 169);
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.contact-heading {
+    text-align: center;
+}
+
+.contact-heading h1 {
+    margin: 10px 0;
+    font-size: 4rem;
+    line-height: 3rem;
+    font-weight: 500;
+    text-align: center;
+    color: rgb(72, 63, 63);
+    font-style: italic;
+}
+
+.contact-container label {
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    color: rgb(91, 55, 55);
+    margin-right: 20px;
+}
+
+.contact-container input {
+    font-size: 1.6rem;
+    line-height: 2rem;
+    padding: 5px 15px;
+    border-radius: 20px;
+    outline: none;
+    border-color: rgb(48, 17, 169);
+    border-style: solid;
+    color: rgb(91, 55, 55);
+}
+
+.contact-container select {
+    font-size: 1.6rem;
+    line-height: 2rem;
+    outline: none;
+    padding: 4px;
+    color:rgb(91, 55, 55);
+}
+
+.contact-content__purpose {
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    padding-bottom: 10px;
+    
+}
+
+.contact-content__purpose label {
+    font-style: oblique;
+   
+
+}
+
+.contact-content__purpose select {
+    background-color:rgba(95, 58, 243, 0.764) ;
+}
+
+.contact-content__name {
+    margin: 10px;
+    display: flex;
+    padding-bottom: 10px;
+    align-items: center;   
+    font-style: oblique;
+ 
+}
+
+.contact-content__name input {
+    width: 60%;
+}
+
+.contact-content__email {
+    margin: 10px;
+    display: flex;
+    padding-bottom: 10px;
+    align-items: center;
+    font-style: oblique;
+}
+
+.contact-content__email input {
+    width: 60%;
+}
+
+.contact-content__phone {
+    margin: 10px;
+    display: flex;
+    padding-bottom: 10px;
+    align-items: center;
+    font-style: oblique;
+}
+
+.contact-content__phone input {
+    width: 60%;
+}
+
+.contact-content__how {
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    padding-bottom: 20px;
+    justify-content: space-between;
+    font-style: oblique;
+}
+
+.contact-content__how div {
+    display: inline-flex;
+}
+
+.contact-content__how input {
+    margin-right: 5px;
+}
+
+.contact-content__receive {
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    padding-bottom: 20px;
+    justify-content: space-between;
+    font-style: oblique;
+}
+
+.contact-content__receive div {
+    display: inline-flex;
+}
+
+.contact-content__note {
+    margin: 10px;
+    display: flex;
+    padding-bottom: 10px;
+    align-items: center;
+}
+
+.contact-content__note textarea {
+    padding: 10px;
+}
+
+.contact-content__button {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.contact-content__button input {
+    display: flex;
+    cursor: pointer;
+    background-color:#37474f;
+    outline: none;
+    border: 1px solid black;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 4px;
+    width: 30%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+    font-size: 2rem;
+    line-height: 2rem;
+    font-weight: 200;
+}
+
+.contact-content__button input:hover {
+    background-color: rgb(155, 148, 188);
+}
+
+
+.footer {
+    margin-top: 50px;
+    background: #37474f;
+    list-style: none;
+    text-decoration: none;
+  }
+  
+  .footer-container {
+    max-width: 1300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .footer-function {
+    margin-left: 60px;
+    width: 555px;
+    max-height: 311px;
+    margin-top: 30px;
+    margin-right: 150px;
+    align-items: center;
+  }
+  
+  .footer-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    
+    
+  }
+  
+  .footer-items {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+    color: #b4b4b4;
+  }
+  
+  .footer-copyright p {
+    margin: 20px 40px;
+  }
+
+
+  
+  .footer-items:hover {
+    color: rgba(0, 0, 255, 0.578);
+    text-decoration: underline;
+  }
+  
+  .footer-contact {
+    padding: 20px 0px;
+    margin: 0 -60px;
+  }
+  
+  .footer-contact p {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 34px;
+    color: #b4b4b4;
+    margin-top: 50px;
+    
+  }
+  
+  .footer-contact input {
+    margin-top: 20px;
+    width: 200px;
+    height: 30px;
+    border: 2px solid white;
+    border-radius: 2px;
+    margin-right: 10px;
+    color: white;
+  }
+  
+  .footer-contact button {
+    width: 80px;
+    height: 37px;
+    border: 2px solid white;
+    border-radius: 2px;
+    outline: none;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    letter-spacing: 0.08em;
+    color: #b4b4b4;
+    cursor: pointer;
+  }
+  
+  .footer-contact p {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 136.02%;
+  
+    letter-spacing: 0.08em;
+  
+    color: #b4b4b4;
+    margin-bottom: 10px;
+  }
+  
+  .footer-social {
+      font-size: 36px;
+     display: flex;
+     align-items: center;
+     gap: 0 40px;
+  
+  }
+  
+  .footer-media {
+      color: white;
+  }
+  
+  .footer-media:hover {
+  
+    color: #4d575c67;
+  }
